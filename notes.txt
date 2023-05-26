@@ -1,0 +1,15 @@
+file strting with server = TBTrade20220527
+file strting with SQLDatetime = TBTrade20220610
+file starting with manager ID = TBTrade20220519-NM
+
+
+ManagerID	MAINTradeID	MAINOrderID	ExchangeTradeTime	
+Exchange	Symbol	ExpiryDate	SecurityType	Side	
+OrderType	Quantity	PendingQuantity	Price	StrikePrice	CTCLID
+	ClientID	ReferenceText	MemberID	StrategyID	OptionType	
+    ProductType	OpenClose	UserID	Pancard	ParticipantID
+
+[SQLDateTime]:ExchangeTradeTime,[DateTime]:ExchangeTradeTime,--tradenum:,--ordernum:,terminal:0,CTCLID,algoid:0,
+[AccountCode]:ClientID,--[MemberCode]:,--'SecurityID': ScripCode, Exchange:, OptionType: , ExpiryDate:,
+StrikePrice: , Symbol: ScripDescription, Side: BuySellFlag, TradeQty: Quantity, Price: TradePrice,
+MAINTradeID: , SecurityType: , ReferenceText: , PendingQuantity:PendingQuantity, CustomID:0, Sender:0
